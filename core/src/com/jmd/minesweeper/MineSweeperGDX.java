@@ -51,10 +51,7 @@ public class MineSweeperGDX extends ApplicationAdapter {
             }
 
             @Override
-            public boolean touchDown(int i, int i1, int i2, int i3) {
-                //i3 = 0 = left
-                //i3 = 1 = right
-                System.out.println("Touchdown : [i1,i2,i3,i4] " + "[" + i + "," + i1 + "," + i2 + "," + i3 + "]");
+            public boolean touchDown(int x, int y, int pointer, int buttonPressed) {
 
                 return true;
             }
